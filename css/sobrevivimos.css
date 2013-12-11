@@ -1,0 +1,293 @@
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+
+strong {
+    font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Set consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+img {
+    border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+body { 
+	background-color: white;
+	font-family: 'Trocchi', serif;
+	line-height: 1.2em;	
+}
+/*============================
+Layout
+=============================*/
+
+hr{
+padding: 5%;
+width: 0%;
+border: none;
+}
+
+.imagen-ancla {
+	background: url('../img/ioancla.png') no-repeat center;
+	border: 0;
+	height: 169px;
+	width: 122px;
+	}
+/*============================
+Images
+=============================*/
+img {
+	padding: 2%;
+	max-width: 90%
+}
+
+.i {
+	float: left;
+	margin: 0 auto;
+	max-width: 60%
+	}
+
+.borde {
+	border: thick solid black;
+	display: block;
+	margin: 5% auto;
+}
+
+.imagen-centrada {
+	display: block;
+	margin: 5% auto;
+}
+
+/*===================
+Lists
+=====================*/
+
+ul.c2 {
+-webkit-columns:2;
+-moz-columns: 2; columns: 2;}
+
+ul.c2 > li {
+	font-size: 1.3em;
+}
+
+ul > li {
+		margin: 2% 3%;
+		list-style-type: none;
+		text-indent:-2%;font-size:1.1em;}
+
+nav > ul {
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+nav > ul > li {
+	display: inline;
+	margin: 2%;
+	padding: 2%;
+	border: thick black solid;
+	border-radius: 10%;
+	font-size: 1.2em;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+}
+/*============================
+Text
+=============================*/
+p {
+	margin: 0% 3% 0% 0%;
+	padding: 0% 2%;
+	text-align: justify;
+	font-size: 12pt; 
+	}
+
+p+p {
+	text-indent: 1em;
+}
+
+p:last-child {
+	padding-bottom: 1%;
+}
+
+p.d:before {
+	margin-right: 0.1em;
+	content: "\2014";
+}
+
+p.amano {
+	font-size: 1.4em;
+	font-family: 'Calligraffitti', cursive;
+}
+
+p.verso {
+	margin: 1em 0em;
+}
+
+p.verso + p.verso {
+	margin-left: 5%;
+	text-indent: 0em;
+}
+
+p.verso + p.verso + p.verso {
+	margin-left: 10%;
+	text-indent: 0em;
+}
+
+.centrado {
+	margin: 5% auto;
+	text-align: center;
+}
+
+q {
+	padding: 0 0.1em;
+	font-style: italic;
+}
+/*============================
+Links
+=============================*/
+
+a {
+	padding:0.5%;
+	font-weight: 700;
+	font-style: italic;
+}
+
+a:hover {
+	padding: 1%;
+}
+
+h1 a{
+	color: #800;
+	text-decoration: none;
+}
+
+/*=============================
+Headings
+=============================*/
+
+h1 {margin: 2% 0% 5% 0%; padding-top: 1%;font-size: 3.0em;}
+h2 {font-size: 2.5em;}
+h3 {font-size: 2em;}
+h1,h2,h3 { color: #800; line-height: 1.5em;}
+h2 h3 {margin: 1% 0%;}
+
+/*============================
+Blockquote
+=============================*/
+
+blockquote {
+	margin: 0 auto;
+	width: 50%;		
+}
+
+blockquote p {
+	text-align: center;
+}
+
+/*========================
+footer
+=========================*/
+
+footer {
+	margin: 0 auto;
+	padding: 5% ;
+	max-width: 850px;
+	width: 90%;
+}

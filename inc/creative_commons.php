@@ -1,0 +1,3 @@
+<h2>Permiso para crear</h2>
+
+<p>Esta novela goza de una licencia <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES">Creative Commons Reconocimiento Compartir Igual 3.0</a>. Por tanto puedes compartirla, publicarla y escribir tus propias historias siempre que respetes los términos de la licencia como se describen en el <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.es_ES">enlace</a> anterior.</p>
